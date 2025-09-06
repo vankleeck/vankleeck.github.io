@@ -8,11 +8,11 @@ I have hands-on experience in software development, server deployment, and cloud
 
 Skills
 
-Programming & Frameworks: C#, Java, Python, C++, JavaScript, Django, React
+Programming & Frameworks: C#, Java, Python, C++, JavaScript, Django, React, HTML, and CSS
 
 Version Control: GitHub & Git
 
-Platforms & Tools: Linux, AWS Cloud Computing
+Platforms & Tools: Linux, AWS Cloud Computing, nginx
 
 ## Contact
 You can reach me at [LinkedIn](www.linkedin.com/in/arthur-vankleeck-841b57263) or [GitHub](https://github.com/vankleeck).
