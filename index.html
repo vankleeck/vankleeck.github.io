@@ -8,23 +8,22 @@
   <title>My Portfolio</title>
 </head>
 <body>
-
   <header>
-    <h1>Welcome to My Portfolio</h1>
-    <p>Third-year Computer Science Student | Western Governors University</p>
+    <img src="media/Arthur Vankleeck.png" alt="Site Banner">
+    <h1>Third-year Computer Science Major | Western Governors University</h1>
   </header>
 
   <section>
     <h2>About Me</h2>
-    <p>I’m passionate about building software solutions that are both efficient and user-friendly. I have experience in <strong>software development</strong>, <strong>server deployment</strong>, and <strong>cloud computing</strong>, and I enjoy solving challenging problems through practical solutions.</p>
+    <p>I have hands-on experience in <strong>software development</strong>, <strong>server deployment</strong>, and <strong>cloud computing</strong>, and I thrive on solving challenging problems through creative and practical solutions. I enjoy working independently as well as collaborating with others to bring projects to life.</p>
   </section>
 
   <section>
     <h2>Skills</h2>
     <ul>
-      <li><strong>Programming & Frameworks:</strong> C#, Java, Python, C++, JavaScript, Django, React</li>
+      <li><strong>Programming & Frameworks:</strong> C#, Java, Python, C++, JavaScript, php, Django, React</li>
       <li><strong>Version Control & Collaboration:</strong> GitHub & Git</li>
-      <li><strong>Platforms & Tools:</strong> Linux, AWS Cloud Computing</li>
+      <li><strong>Platforms & Tools:</strong> Linux, AWS Cloud Computing, nginx</li>
     </ul>
   </section>
 
@@ -37,8 +36,20 @@
     </ul>
   </section>
 
+  <section>
+    <h2>Education</h2>
+    <ul>
+      <li><strong>Degrees:</strong> Associate in Applied Science - Software Development</li>
+      <li><strong>Certificates:</strong> Testout Network Pro, Testout Security Pro, AWS Academy Graduate - AWS Academy Cloud Architecting</li>
+    </ul>
+  </section>
+
   <footer>
-    <p>Connect with me on <a href="https://github.com/vankleeck" target="_blank">GitHub</a></p>
+    <p>Connect with me on <a href="https://github.com/vankleeck" target="_blank">GitHub</a> or <a href="https://www.linkedin.com/in/arthur-vankleeck-841b57263" target="_blank">Linkedin</a></p>
+    <p><small>&copy; <span id="year"></span>  Arthur Vankleeck. All rights reserved.</small></p>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
   </footer>
 
 </body>
